@@ -106,8 +106,8 @@ html {
   font-size: 16px;
 }
 html >::-webkit-scrollbar {
-  height: 4px;
-  width: 4px;
+  height: 10px;
+  width: 10px;
 }
 html >::-webkit-scrollbar-track-piece {
   background: transparent;
@@ -115,8 +115,8 @@ html >::-webkit-scrollbar-track-piece {
 html >::-webkit-scrollbar-thumb {
   background: #3dd9b6;
   cursor: pointer;
-  border-radius: 2px;
-  -webkit-border-radius: 2px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
 }
 html >::-webkit-scrollbar-thumb:hover {
   background: #ff5722;
@@ -1740,7 +1740,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     debug: "env",
     cdn: {"js":{"app":"/js/app.js","parallax":"/js/plugins/parallax.js","rightMenu":"/js/plugins/rightMenu.js","rightMenus":"/js/plugins/rightMenus.js","sites":"/js/plugins/tags/sites.js","friends":"/js/plugins/tags/friends.js","contributors":"/js/plugins/tags/contributors.js","search":"/js/search/hexo.js"},"css":{"style":"/css/style.css"}},
     default: {"avatar":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1673706306829),
+    lastupdate: new Date(1673708786713),
     sidebar: {
       for_page: ["blogger","category","tagcloud","donate"],
       for_post: ["toc"],
@@ -2299,14 +2299,284 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                target="_blank" rel="noopener" href="https://www.bilibili.com/" title="更多"
+                 href="/" onclick="return false;" title="更多"
                   
                   
-                  
-                    active-action="action-https:wwwbilibilicom"
                   >
-                  <i class='fa-solid fa-user fa-fw'></i>更多
+                  <i class='fa-solid fa-ellipsis-v fa-fw'></i>更多
                 </a>
+                
+                  <ul class="list-v">
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover"
+                target="_blank" rel="noopener" href="https://github.com/volantis-x/hexo-theme-volantis/" title="主题源码"
+                  
+                  
+                  
+                    active-action="action-https:githubcomvolantis-xhexo-theme-volantis"
+                  >
+                  主题源码
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover"
+                target="_blank" rel="noopener" href="https://github.com/volantis-x/hexo-theme-volantis/releases/" title="更新日志"
+                  
+                  
+                  
+                    active-action="action-https:githubcomvolantis-xhexo-theme-volantisreleases"
+                  >
+                  更新日志
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <hr>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover"
+                 href="/" onclick="return false;" title="有疑问？"
+                  
+                  
+                  >
+                  有疑问？
+                </a>
+                
+                  <ul class="list-v">
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover"
+                href="/faqs/" title="看 FAQ"
+                  
+                  
+                  
+                    active-action="action-faqs"
+                  >
+                  看 FAQ
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover"
+                target="_blank" rel="noopener" href="https://github.com/volantis-x/volantis-docs/" title="看 本站源码"
+                  
+                  
+                  
+                    active-action="action-https:githubcomvolantis-xvolantis-docs"
+                  >
+                  看 本站源码
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover"
+                target="_blank" rel="noopener" href="https://github.com/volantis-x/hexo-theme-volantis/issues/" title="提 Issue"
+                  
+                  
+                  
+                    active-action="action-https:githubcomvolantis-xhexo-theme-volantisissues"
+                  >
+                  提 Issue
+                </a>
+                
+              </li>
+            
+          
+                    
+                  </ul>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <hr>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover"
+                href="/archives/" title="公告和测试博文"
+                  
+                  
+                  
+                    active-action="action-archives"
+                  >
+                  公告和测试博文
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover"
+                href="/examples/" title="示例博客"
+                  
+                  
+                  
+                    active-action="action-examples"
+                  >
+                  示例博客
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover"
+                href="/contributors/" title="特别感谢"
+                  
+                  
+                  
+                    active-action="action-contributors"
+                  >
+                  特别感谢
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover"
+                href="/" title="近期"
+                  
+                  
+                  
+                    active-action="action-home"
+                  >
+                  <i class='fa-solid fa-clock fa-fw'></i>近期
+                </a>
+                
+                  <ul class="list-v">
+                    
+                      
+            
+              <li class='header'>
+                <i class='fa-solid fa-fire fa-fw'></i>热门文章
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover"
+                href="/blog/2019-08-27-prohud/" title="ProHUD 开源库的设计思路"
+                  
+                  
+                  
+                    active-action="action-blog2019-08-27-prohud"
+                  >
+                  ProHUD 开源库的设计思路
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover"
+                href="/blog/2019-08-29-valuex/" title="ValueX：实用的安全对象类型转换库"
+                  
+                  
+                  
+                    active-action="action-blog2019-08-29-valuex"
+                  >
+                  ValueX：实用的安全对象类型转换库
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover"
+                href="/blog/2019-07-23-heartmate/" title="心率管家 App 的设计与开发"
+                  
+                  
+                  
+                    active-action="action-blog2019-07-23-heartmate"
+                  >
+                  心率管家 App 的设计与开发
+                </a>
+                
+              </li>
+            
+          
+                    
+                  </ul>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              
+                <li>
+                  <a class="menuitem flat-box">
+                    <i class='fa-solid fa-compact-disc fa-fw music'></i>背景音乐
+                  </a>
+                  <ul class="list-v">
+                    <li>
+                      <div class="aplayer-container">
+                        
+
+
+                      </div>
+                    </li>
+                  </ul>
+                <li>
+              
+            
+          
+                    
+                  </ul>
                 
               </li>
             
@@ -2437,14 +2707,269 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
               <li>
                 <a class="menuitem flat-box faa-parent animated-hover"
-                target="_blank" rel="noopener" href="https://www.bilibili.com/" title="更多"
+                 href="/" onclick="return false;" title="更多"
                   
                   
-                  
-                    active-action="action-https:wwwbilibilicom"
                   >
-                  <i class='fa-solid fa-user fa-fw'></i>更多
+                  <i class='fa-solid fa-ellipsis-v fa-fw'></i>更多
                 </a>
+                
+                  <ul class="list-v">
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover"
+                target="_blank" rel="noopener" href="https://github.com/volantis-x/hexo-theme-volantis/" title="主题源码"
+                  
+                  
+                  
+                    active-action="action-https:githubcomvolantis-xhexo-theme-volantis"
+                  >
+                  主题源码
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover"
+                target="_blank" rel="noopener" href="https://github.com/volantis-x/hexo-theme-volantis/releases/" title="更新日志"
+                  
+                  
+                  
+                    active-action="action-https:githubcomvolantis-xhexo-theme-volantisreleases"
+                  >
+                  更新日志
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <hr>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover"
+                 href="/" onclick="return false;" title="有疑问？"
+                  
+                  
+                  >
+                  有疑问？
+                </a>
+                
+                  <ul class="list-v">
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover"
+                href="/faqs/" title="看 FAQ"
+                  
+                  
+                  
+                    active-action="action-faqs"
+                  >
+                  看 FAQ
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover"
+                target="_blank" rel="noopener" href="https://github.com/volantis-x/volantis-docs/" title="看 本站源码"
+                  
+                  
+                  
+                    active-action="action-https:githubcomvolantis-xvolantis-docs"
+                  >
+                  看 本站源码
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover"
+                target="_blank" rel="noopener" href="https://github.com/volantis-x/hexo-theme-volantis/issues/" title="提 Issue"
+                  
+                  
+                  
+                    active-action="action-https:githubcomvolantis-xhexo-theme-volantisissues"
+                  >
+                  提 Issue
+                </a>
+                
+              </li>
+            
+          
+                    
+                  </ul>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <hr>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover"
+                href="/archives/" title="公告和测试博文"
+                  
+                  
+                  
+                    active-action="action-archives"
+                  >
+                  公告和测试博文
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover"
+                href="/examples/" title="示例博客"
+                  
+                  
+                  
+                    active-action="action-examples"
+                  >
+                  示例博客
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover"
+                href="/contributors/" title="特别感谢"
+                  
+                  
+                  
+                    active-action="action-contributors"
+                  >
+                  特别感谢
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover"
+                href="/" title="近期"
+                  
+                  
+                  
+                    active-action="action-home"
+                  >
+                  <i class='fa-solid fa-clock fa-fw'></i>近期
+                </a>
+                
+                  <ul class="list-v">
+                    
+                      
+            
+              <li class='header'>
+                <i class='fa-solid fa-fire fa-fw'></i>热门文章
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover"
+                href="/blog/2019-08-27-prohud/" title="ProHUD 开源库的设计思路"
+                  
+                  
+                  
+                    active-action="action-blog2019-08-27-prohud"
+                  >
+                  ProHUD 开源库的设计思路
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover"
+                href="/blog/2019-08-29-valuex/" title="ValueX：实用的安全对象类型转换库"
+                  
+                  
+                  
+                    active-action="action-blog2019-08-29-valuex"
+                  >
+                  ValueX：实用的安全对象类型转换库
+                </a>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              <li>
+                <a class="menuitem flat-box faa-parent animated-hover"
+                href="/blog/2019-07-23-heartmate/" title="心率管家 App 的设计与开发"
+                  
+                  
+                  
+                    active-action="action-blog2019-07-23-heartmate"
+                  >
+                  心率管家 App 的设计与开发
+                </a>
+                
+              </li>
+            
+          
+                    
+                  </ul>
+                
+              </li>
+            
+          
+                    
+                      
+            
+              
+            
+          
+                    
+                  </ul>
                 
               </li>
             
@@ -2864,9 +3389,39 @@ Qu...
         <div class="social-wrapper" itemprop="about" itemscope itemtype="http://schema.org/Thing">
           
             
-          
+              <a href="/atom.xml"
+                class="social fas fa-rss flat-btn"
+                target="_blank"
+                rel="external nofollow noopener noreferrer" itemprop="url">
+                
+              </a>
             
           
+            
+              <a href="mailto:me@xaoxuu.com"
+                class="social fas fa-envelope flat-btn"
+                target="_blank"
+                rel="external nofollow noopener noreferrer" itemprop="url">
+                
+              </a>
+            
+          
+            
+              <a href="https://github.com/xaoxuu"
+                class="social fab fa-github flat-btn"
+                target="_blank"
+                rel="external nofollow noopener noreferrer" itemprop="url">
+                
+              </a>
+            
+          
+            
+              <a href="https://music.163.com/#/user/home?id=63035382"
+                class="social fas fa-headphones-alt flat-btn"
+                target="_blank"
+                rel="external nofollow noopener noreferrer" itemprop="url">
+                
+              </a>
             
           
         </div>
@@ -2878,13 +3433,6 @@ Qu...
       
     
       
-        
-          <div><p><span id="lc-sv">本站总访问量为 <span id='number'><i class="fa-solid fa-loader fa-spin fa-fw" aria-hidden="true"></i></span> 次</span> <span id="lc-uv">访客数为 <span id='number'><i class="fa-solid fa-loader fa-spin fa-fw" aria-hidden="true"></i></span> 人</span></p>
-</div>
-        
-      
-    
-      
         Use
         <a href="https://github.com/volantis-x/hexo-theme-volantis/#5.7.7" target="_blank" class="codename">Volantis</a>
         as theme
@@ -2892,7 +3440,7 @@ Qu...
     
       
         <div class='copyright'>
-        <p><a href="/">Copyright © since 2017 XXX</a></p>
+        <p><a href="/">Copyright © 2017-2021 XXX</a></p>
 
         </div>
       
